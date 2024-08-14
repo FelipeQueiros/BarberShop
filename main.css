@@ -1,0 +1,76 @@
+body {
+    font-family: Roboto, Sans-serif;
+}
+
+.carousel img {
+    max-width: 100%;
+}
+
+.text-colored {
+    color: #5f5f5f;
+}
+
+.navbar-toggler-icon {
+    background-color: #3b3b3b;
+}
+
+#cabelo-e-barba, #fale-conosco {
+    background-color: #b9b9b9;
+}
+
+#cabecalho {
+    background-color: #777777;
+    color: #fff;
+}
+
+#cabecalho h1 {
+    font-size: 30pt;
+    text-shadow: 0 0 10px rgba(30, 30, 31, 1), 0 0 20px rgba(30, 30, 31, 1), 0 0 30px rgba(30, 30, 31, 1);
+}
+
+#cabecalho .nav .nav-link.active {
+    color: #fff;
+    background-color: #3b3b3b;
+}
+
+.nav-pills .nav-link.active ,
+.nav-link.active:hover{
+    background-color: #3b3b3b;
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-produtoss .nav-link.active:hover{
+    color: #fff;
+}
+
+.section-title {
+    font-family: pacifico, cursive;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+form {
+    max-width: 80%;
+}
+
+#fale-conosco button {
+    background-color: #3b3b3b;
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .produtoss img {
+        max-width: 60%;
+        max-height: 60%;
+    }
+}
